@@ -26,7 +26,7 @@ public class Printrepeatedchaar {
 //	        String string1 = "Great responsibility";  
 //	        int count;  
 //	        char string[] = string1.toCharArray();  
-//	           
+//	           	
 //	        for(int i = 0; i <string.length; i++) {  
 //	            count = 1;  
 //	            for(int j = i+1; j <string.length; j++) {  

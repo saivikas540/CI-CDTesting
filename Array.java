@@ -7,15 +7,16 @@ public class Array {
 		int target=14;
 		int k= num.length;
 		int tar;
-		
+		int count;
 	for(int i=0;i<k;i++) {
+		count=1;
 		for(int j=1;j<k;j++) {
 		 tar= num[i]+num[j];
 		 
 		 if(tar==target) {
 			 System.out.println(num[i]+" "+num[j]);
-			 i=6;
-			 j=6;
+			 i=k;
+			 j=k;
 		 }
 		
 		}
